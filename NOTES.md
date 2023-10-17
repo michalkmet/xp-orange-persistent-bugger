@@ -18,6 +18,6 @@ For example (Input --> Output):
 Pomodoro 1:
 - ✅ DONE Plan pomodoro 1
 - ✅ DONE Project description
-- ⚠ TODO Initial refactor
+- ✅ DONE Initial refactor
 - ⚠ TODO Examples
 - ⚠ TODO User stories
