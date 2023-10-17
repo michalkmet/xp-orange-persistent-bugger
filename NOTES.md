@@ -20,4 +20,4 @@ Pomodoro 1:
 - ✅ DONE Project description
 - ✅ DONE Initial refactor
 - ✅ DONE Examples
-- ⚠ TODO User stories
+- ✅ DONE User stories
