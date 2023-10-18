@@ -17,7 +17,7 @@ For example (Input --> Output):
 20 --> 1
 25 --> 2
 27 --> 2
-38 --> 2
+38 --> 3
 39 --> 3
 47 --> 3
 88 --> 3
@@ -42,7 +42,7 @@ As a user, I want to see the number persistence for small numbers
 - ⚠ TODO UAT1.5: When I pass 20, then I should see 1
 - ⚠ TODO UAT1.6: When I pass 25, then I should see 2
 - ⚠ TODO UAT1.7: When I pass 27, then I should see 2
-- ⚠ TODO UAT1.8: When I pass 38, then I should see 2
+- ⚠ TODO UAT1.8: When I pass 38, then I should see 3
 - 
 
 Story2: bigger nums

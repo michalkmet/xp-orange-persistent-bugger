@@ -10,6 +10,8 @@ function persistence(number) {
     return 1;
   } else if (firstMultiple >= 10 && firstMultiple < 19) {
     return 2;
+  } else {
+    return 3;
   }
 }
 

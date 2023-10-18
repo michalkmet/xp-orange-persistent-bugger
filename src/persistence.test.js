@@ -22,4 +22,7 @@ describe('Story1: small nums', () => {
   it('UAT1.7: When I pass 27, then I should see 2', () => {
     expect(persistence(27)).toBe(2);
   });
+  it('UAT1.8: When I pass 38, then I should see 3', () => {
+    expect(persistence(38)).toBe(3);
+  });
 });
