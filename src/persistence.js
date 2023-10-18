@@ -1,5 +1,5 @@
 function persistence() {
-  return 'hello';
+  return 0;
 }
 
 module.exports = persistence;
