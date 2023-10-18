@@ -38,8 +38,8 @@ As a user, I want to see the number persistence for small numbers
 Story2: bigger nums
 - 🚧 IN PROGRESS As a user, I want to see the number persistence for bigger numbers
 - ✅ DONE UAT2.1: When I pass 39, then I should see 3
-- ⚠ TODO UAT2.2: When I pass 47, then I should see 3
-- ⚠ TODO UAT2.3: When I pass 88, then I should see 3
+- ✅ DONE UAT2.2: When I pass 47, then I should see 3
+- ✅ DONE UAT2.3: When I pass 88, then I should see 3
 - ⚠ TODO UAT2.4: When I pass 168, then I should see 4
 - ⚠ TODO UAT2.5: When I pass 359, then I should see 3
 - ⚠ TODO UAT2.6: When I pass 999, then I should see 4
