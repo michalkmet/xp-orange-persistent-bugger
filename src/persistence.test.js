@@ -26,3 +26,9 @@ describe('Story1: small nums', () => {
     expect(persistence(38)).toBe(3);
   });
 });
+
+describe('Story2: bigger nums', () => {
+  it('UAT2.1: When I pass 39, then I should see 3', () => {
+    expect(persistence(39)).toBe(3);
+  });
+});

@@ -25,7 +25,7 @@ Pomodoro 1:
 Pomodoro 2:
 
 Story1: small nums
-- 🚧 IN PROGRESS As a user, I want to see the number persistence for small numbers
+As a user, I want to see the number persistence for small numbers
 - ✅ DONE UAT1.1: When I pass 4, then I should see 0
 - ✅ DONE UAT1.2: When I pass 9, then I should see 0
 - ✅ DONE UAT1.3: When I pass 10, then I should see 1
@@ -34,3 +34,12 @@ Story1: small nums
 - ✅ DONE UAT1.6: When I pass 25, then I should see 2
 - ✅ DONE UAT1.7: When I pass 27, then I should see 2
 - ✅ DONE UAT1.8: When I pass 38, then I should see 3
+
+Story2: bigger nums
+- 🚧 IN PROGRESS As a user, I want to see the number persistence for bigger numbers
+- ✅ DONE UAT2.1: When I pass 39, then I should see 3
+- ⚠ TODO UAT2.2: When I pass 47, then I should see 3
+- ⚠ TODO UAT2.3: When I pass 88, then I should see 3
+- ⚠ TODO UAT2.4: When I pass 168, then I should see 4
+- ⚠ TODO UAT2.5: When I pass 359, then I should see 3
+- ⚠ TODO UAT2.6: When I pass 999, then I should see 4
