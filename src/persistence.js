@@ -5,25 +5,34 @@ function persistence(number) {
   let numArr = number.toString().split('');
   let persistenceIncrement = 0;
   console.log('numArr: ', numArr);
-  let result = 0;
-  do {
-    result = multiply(numArr[0], numArr[1]);
-    persistenceIncrement++;
-  } while (result > 10);
 
-  let firstMultiple = numArr[0] * numArr[1];
-  console.log('firstMultiple: ', firstMultiple);
-  if (firstMultiple < 10) {
-    return 1;
-  } else if (firstMultiple >= 10 && firstMultiple < 19) {
-    return 2;
-  } else {
-    return 3;
-  }
+  let result = number;
+  console.log('result1: ', result);
+  do {
+    result = multiply(result);
+    persistenceIncrement++;
+    console.log('persistenceIncrement!: ', persistenceIncrement);
+    console.log('result!: ', result);
+  } while (result >= 10);
+
+  console.log('persistenceIncrementFinal: ', persistenceIncrement);
+  return persistenceIncrement;
 }
 
-function multiply(num1, num2) {
-  return num1 * num2;
+function multiply(nums) {
+  console.log('multiply!');
+  console.log('nums: ', nums);
+  let numsArr = nums.toString().split('');
+  console.log('nums: ', numsArr);
+  console.log('numsArr.length: ', numsArr.length);
+  let multiplicationResult = numsArr[0];
+  for (let i = 1; i < numsArr.length; i++) {
+    console.log('numsArr[i]: ', numsArr[i]);
+    multiplicationResult *= numsArr[i];
+    console.log('multiplicationResult!: ', multiplicationResult);
+  }
+  console.log('multiplicationResult: ', multiplicationResult);
+  return multiplicationResult;
 }
 
 module.exports = persistence;

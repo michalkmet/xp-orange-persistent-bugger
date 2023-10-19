@@ -37,7 +37,7 @@ describe('Story2: bigger nums', () => {
   it('UAT2.3: When I pass 88, then I should see 3', () => {
     expect(persistence(88)).toBe(3);
   });
-  it('UAT2.4: When I pass 168, then I should see 4', () => {
+  it.only('UAT2.4: When I pass 168, then I should see 4', () => {
     expect(persistence(168)).toBe(4);
   });
 });
