@@ -36,21 +36,21 @@ For example (Input --> Output):
 
 Story1: small nums
 As a user, I want to see the number persistence for small numbers
-- ⚠ TODO UAT1.1: When I pass 4, then I should see 0
-- ⚠ TODO UAT1.2: When I pass 9, then I should see 0
-- ⚠ TODO UAT1.3: When I pass 10, then I should see 1
-- ⚠ TODO UAT1.4: When I pass 19, then I should see 1
-- ⚠ TODO UAT1.5: When I pass 20, then I should see 1
-- ⚠ TODO UAT1.6: When I pass 25, then I should see 2
-- ⚠ TODO UAT1.7: When I pass 27, then I should see 2
-- ⚠ TODO UAT1.8: When I pass 38, then I should see 2
+- ✅ DONE UAT1.1: When I pass 4, then I should see 0
+- ✅ DONE UAT1.2: When I pass 9, then I should see 0
+- ✅ DONE UAT1.3: When I pass 10, then I should see 1
+- ✅ DONE UAT1.4: When I pass 19, then I should see 1
+- ✅ DONE UAT1.5: When I pass 20, then I should see 1
+- ✅ DONE UAT1.6: When I pass 25, then I should see 2
+- ✅ DONE UAT1.7: When I pass 27, then I should see 2
+- ✅ DONE UAT1.8: When I pass 38, then I should see 2
 - 
 
 Story2: bigger nums
 As a user, I want to see the number persistence for bigger numbers
-- ⚠ TODO UAT2.1: When I pass 39, then I should see 3
-- ⚠ TODO UAT2.2: When I pass 47, then I should see 3
-- ⚠ TODO UAT2.3: When I pass 88, then I should see 3
-- ⚠ TODO UAT2.4: When I pass 168, then I should see 4
-- ⚠ TODO UAT2.5: When I pass 359, then I should see 3
-- ⚠ TODO UAT2.6: When I pass 999, then I should see 4
+- ✅ DONE UAT2.1: When I pass 39, then I should see 3
+- ✅ DONE UAT2.2: When I pass 47, then I should see 3
+- ✅ DONE UAT2.3: When I pass 88, then I should see 3
+- ✅ DONE UAT2.4: When I pass 168, then I should see 4
+- ✅ DONE UAT2.5: When I pass 359, then I should see 3
+- ✅ DONE UAT2.6: When I pass 999, then I should see 4
