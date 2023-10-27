@@ -40,4 +40,7 @@ describe('Story2: bigger nums', () => {
   it('UAT2.4: When I pass 168, then I should see 3', () => {
     expect(persistence(168)).toBe(3);
   });
+  it('UAT2.5: When I pass 359, then I should see 3', () => {
+    expect(persistence(359)).toBe(3);
+  });
 });

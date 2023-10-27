@@ -48,6 +48,6 @@ Pomodoro 3:
 Pomodoro 4:
 - ✅ DONE UAT2.4: When I pass 168, then I should see 3
 - ✅ DONE UAT1.8: When I pass 38, then I should see 2
-- ⚠ TODO UAT2.5: When I pass 359, then I should see 3
+- ✅ DONE UAT2.5: When I pass 359, then I should see 3
 - ⚠ TODO UAT2.6: When I pass 999, then I should see 4
 - 
