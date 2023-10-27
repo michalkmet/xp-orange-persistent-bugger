@@ -33,7 +33,7 @@ As a user, I want to see the number persistence for small numbers
 - ✅ DONE UAT1.5: When I pass 20, then I should see 1
 - ✅ DONE UAT1.6: When I pass 25, then I should see 2
 - ✅ DONE UAT1.7: When I pass 27, then I should see 2
-- ✅ DONE UAT1.8: When I pass 38, then I should see 3
+- ✅ DONE UAT1.8: When I pass 38, then I should see 2
 
 Story2: bigger nums
 - 🚧 IN PROGRESS As a user, I want to see the number persistence for bigger numbers
@@ -45,8 +45,9 @@ Story2: bigger nums
 Pomodoro 3:
 - 🚧 IN PROGRESS UAT2.4: When I pass 168, then I should see 3
 
-
 Pomodoro 4:
-- 🚧 IN PROGRESS UAT2.4: When I pass 168, then I should see 3
+- ✅ DONE UAT2.4: When I pass 168, then I should see 3
+- ✅ DONE UAT1.8: When I pass 38, then I should see 2
 - ⚠ TODO UAT2.5: When I pass 359, then I should see 3
 - ⚠ TODO UAT2.6: When I pass 999, then I should see 4
+- 

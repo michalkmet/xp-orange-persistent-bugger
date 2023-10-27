@@ -22,8 +22,8 @@ describe('Story1: small nums', () => {
   it('UAT1.7: When I pass 27, then I should see 2', () => {
     expect(persistence(27)).toBe(2);
   });
-  it('UAT1.8: When I pass 38, then I should see 3', () => {
-    expect(persistence(38)).toBe(3);
+  it('UAT1.8: When I pass 38, then I should see 2', () => {
+    expect(persistence(38)).toBe(2);
   });
 });
 
@@ -37,7 +37,7 @@ describe('Story2: bigger nums', () => {
   it('UAT2.3: When I pass 88, then I should see 3', () => {
     expect(persistence(88)).toBe(3);
   });
-  it.only('UAT2.4: When I pass 168, then I should see 3', () => {
+  it('UAT2.4: When I pass 168, then I should see 3', () => {
     expect(persistence(168)).toBe(3);
   });
 });
