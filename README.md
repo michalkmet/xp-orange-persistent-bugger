@@ -10,7 +10,7 @@ For example (Input --> Output):
 
 
 ## Examples
-
+```
 4 --> 0
 9 --> 0
 10 --> 1
@@ -25,7 +25,7 @@ For example (Input --> Output):
 168 --> 3
 359 --> 3
 999 --> 4
-
+```
 
 ## Legend
 - ⚠ TODO
